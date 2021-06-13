@@ -20,7 +20,7 @@ app.get('/demo', function (req, res) {
 
 // (End points) Serving using express
 app.get("/",(req,res)=>{
-    res.send("This home page");
+    res.send("This home page !");
 });
 
 app.get("/about",(req,res)=>{
